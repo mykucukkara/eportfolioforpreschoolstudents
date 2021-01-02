@@ -1,203 +1,212 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8d633d3-a787-40e0-b0d3-8adbbef99442" name="Default Changelist" comment="">
+    <list default="true" id="a8d633d3-a787-40e0-b0d3-8adbbef99442" name="Default Changelist" comment="Template Updated v1.1">
+      <change afterPath="$PROJECT_DIR$/home/static/assets/css/Markdown.Editor.hack.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/css/MoneAdmin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/css/Offline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/css/bootstrap-fileupload.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/css/bootstrap-wysihtml5-hack.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/css/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/css/countdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/css/error.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/css/jqstooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/css/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/css/jquery.cleditor-hack.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/css/layout2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/css/layout2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/css/main.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/css/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/img/1G.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/img/1G_B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/img/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/img/2G.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/img/2G_B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/img/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/img/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/img/cp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/img/demoBig.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/img/demoBig2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/img/demoImage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/img/demoImage2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/img/demoUpload.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/img/moreNoti.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/img/moreNoti_old.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/img/px_by_Gre3g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/img/user.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/img/user_old.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/js/WizardInit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/js/bar_chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/js/calendarInit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/js/countdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/js/editorInit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/js/for_index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/js/formsInit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/js/get_slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/js/image_gallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/js/jquery.knob.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/js/line_chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/js/mapsInit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/js/moreNoti.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/js/notifications.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/js/pie_chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/js/validationInit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/CLEditor1_4_3/images/buttons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/CLEditor1_4_3/images/toolbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/CLEditor1_4_3/jquery.cleditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/CLEditor1_4_3/jquery.cleditor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/Font-Awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/Font-Awesome/font/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/Font-Awesome/font/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/Font-Awesome/font/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/Font-Awesome/font/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/Font-Awesome/font/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/Markdown.Editor-hack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/autosize/jquery.autosize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/bootstrap-wysihtml5-hack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/chosen/chosen-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/chosen/chosen-sprite@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/chosen/chosen.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/chosen/chosen.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/colorpicker/css/colorpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/colorpicker/img/alpha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/colorpicker/img/hue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/colorpicker/img/saturation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/colorpicker/js/bootstrap-colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/countdown/jquery.countdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/dataTables/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/dataTables/dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/dataTables/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/datepicker/css/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/datepicker/js/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/daterangepicker/daterangepicker-bs3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/daterangepicker/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/daterangepicker/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/egorkhmelev-jslider/css/jslider.blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/egorkhmelev-jslider/css/jslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/egorkhmelev-jslider/css/jslider.plastic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/egorkhmelev-jslider/css/jslider.round.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/egorkhmelev-jslider/css/jslider.round.plastic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/egorkhmelev-jslider/img/jslider.blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/egorkhmelev-jslider/img/jslider.plastic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/egorkhmelev-jslider/img/jslider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/egorkhmelev-jslider/img/jslider.round.plastic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/egorkhmelev-jslider/img/jslider.round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/egorkhmelev-jslider/js/draggable-0.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/egorkhmelev-jslider/js/jquery.dependClass-0.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/egorkhmelev-jslider/js/jquery.numberformatter-1.2.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/egorkhmelev-jslider/js/jquery.slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/egorkhmelev-jslider/js/jshashtable-2.1_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/egorkhmelev-jslider/js/tmpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/flot/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/flot/examples/examples.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/flot/jquery.flot.categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/flot/jquery.flot.crosshair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/flot/jquery.flot.errorbars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/flot/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/flot/jquery.flot.navigate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/flot/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/flot/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/flot/jquery.flot.stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/flot/jquery.flot.symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/flot/jquery.flot.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/fullcalendar-1.6.2/fullcalendar/fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/fullcalendar-1.6.2/fullcalendar/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/gmaps/gmaps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/gritter/css/jquery.gritter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/gritter/images/gritter-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/gritter/images/gritter-long.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/gritter/images/gritter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/gritter/images/ie-spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/gritter/js/jquery.gritter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/inputlimiter/jquery.inputlimiter.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/inputlimiter/jquery.inputlimiter.1.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jasny/js/bootstrap-fileupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jasny/js/bootstrap-inputmask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery-2.0.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery-steps-master/build/jquery.steps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery-steps-master/demo/css/jquery.steps.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery-steps-master/demo/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery-steps-master/demo/css/wizardMain.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery-steps-master/lib/jquery.cookie-1.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery-validation-1.11.1/dist/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery.dualListbox-1.3/jquery.dualListBox-1.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery.fancybox-1.3.4/fancybox/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_loading.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_nav_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_nav_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_shadow_e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_shadow_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_shadow_ne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_shadow_nw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_shadow_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_shadow_se.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_shadow_sw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_shadow_w.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_title_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_title_main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_title_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_title_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancybox-x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancybox-y.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancybox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery.fancybox-1.3.4/fancybox/jquery.mousewheel-3.0.4.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/jquery.fancybox-1.3.4/jquery-1.4.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/magic/magic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/modernizr-2.6.2-respond-1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/morris/morris-0.4.3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/morris/morris-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/morris/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/morris/raphael-2.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/pagedown/Markdown.Converter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/pagedown/Markdown.Sanitizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/social-buttons/social-buttons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/switch/static/js/bootstrap-switch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/switch/static/stylesheets/bootstrap-switch.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/tagsinput/jquery.tagsinput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/tagsinput/jquery.tagsinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/timeline/timeline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/timepicker/css/bootstrap-timepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/timepicker/js/bootstrap-timepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/uniform/jquery.uniform.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/uniform/themes/default/css/uniform.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/uniform/themes/default/images/bg-input-focus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/uniform/themes/default/images/bg-input.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/uniform/themes/default/images/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/validVal/js/jquery.validVal.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/validationengine/css/validationEngine.jquery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/validationengine/js/jquery.validationEngine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/validationengine/js/languages/jquery.validationEngine-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/wysihtml5/dist/bootstrap-wysihtml5-0.0.2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/assets/plugins/wysihtml5/lib/js/wysihtml5-0.3.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/homebase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/leftsidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/rightsidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student/migrations/0002_student.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student/migrations/0003_auto_20201212_2132.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student/migrations/0004_auto_20201212_2135.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/iris-on-the-edge-1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/css/Markdown.Editor.hack.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/css/MoneAdmin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/css/Offline.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/css/bootstrap-fileupload.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/css/bootstrap-wysihtml5-hack.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/css/calendar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/css/countdown.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/css/error.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/css/jqstooltip.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/css/jquery-ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/css/jquery.cleditor-hack.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/css/layout2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/css/layout2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/css/main.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/css/theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/img/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/img/1G.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/img/1G_B.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/img/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/img/2G.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/img/2G_B.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/img/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/img/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/img/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/img/cp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/img/demoBig.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/img/demoBig2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/img/demoImage.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/img/demoImage2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/img/demoUpload.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/img/moreNoti.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/img/moreNoti_old.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/img/px_by_Gre3g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/img/user.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/img/user_old.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/js/WizardInit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/js/bar_chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/js/calendarInit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/js/countdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/js/editorInit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/js/for_index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/js/formsInit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/js/get_slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/js/image_gallery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/js/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/js/jquery.knob.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/js/line_chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/js/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/js/mapsInit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/js/moreNoti.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/js/notifications.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/js/pie_chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/js/validationInit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/CLEditor1_4_3/images/buttons.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/CLEditor1_4_3/images/toolbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/CLEditor1_4_3/jquery.cleditor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/CLEditor1_4_3/jquery.cleditor.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/Font-Awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/Font-Awesome/font/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/Font-Awesome/font/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/Font-Awesome/font/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/Font-Awesome/font/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/Font-Awesome/font/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/Markdown.Editor-hack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/autosize/jquery.autosize.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/bootstrap-wysihtml5-hack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/chosen/chosen-sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/chosen/chosen-sprite@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/chosen/chosen.jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/chosen/chosen.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/colorpicker/css/colorpicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/colorpicker/img/alpha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/colorpicker/img/hue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/colorpicker/img/saturation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/colorpicker/js/bootstrap-colorpicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/countdown/jquery.countdown.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/dataTables/dataTables.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/dataTables/dataTables.bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/dataTables/jquery.dataTables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/datepicker/css/datepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/datepicker/js/bootstrap-datepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/daterangepicker/daterangepicker-bs3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/daterangepicker/daterangepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/daterangepicker/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/egorkhmelev-jslider/css/jslider.blue.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/egorkhmelev-jslider/css/jslider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/egorkhmelev-jslider/css/jslider.plastic.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/egorkhmelev-jslider/css/jslider.round.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/egorkhmelev-jslider/css/jslider.round.plastic.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/egorkhmelev-jslider/img/jslider.blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/egorkhmelev-jslider/img/jslider.plastic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/egorkhmelev-jslider/img/jslider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/egorkhmelev-jslider/img/jslider.round.plastic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/egorkhmelev-jslider/img/jslider.round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/egorkhmelev-jslider/js/draggable-0.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/egorkhmelev-jslider/js/jquery.dependClass-0.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/egorkhmelev-jslider/js/jquery.numberformatter-1.2.3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/egorkhmelev-jslider/js/jquery.slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/egorkhmelev-jslider/js/jshashtable-2.1_src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/egorkhmelev-jslider/js/tmpl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/flot/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/flot/examples/examples.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/flot/jquery.flot.categories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/flot/jquery.flot.crosshair.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/flot/jquery.flot.errorbars.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/flot/jquery.flot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/flot/jquery.flot.navigate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/flot/jquery.flot.pie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/flot/jquery.flot.resize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/flot/jquery.flot.stack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/flot/jquery.flot.symbol.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/flot/jquery.flot.time.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/fullcalendar-1.6.2/fullcalendar/fullcalendar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/fullcalendar-1.6.2/fullcalendar/fullcalendar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/gmaps/gmaps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/gritter/css/jquery.gritter.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/gritter/images/gritter-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/gritter/images/gritter-long.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/gritter/images/gritter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/gritter/images/ie-spacer.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/gritter/js/jquery.gritter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/inputlimiter/jquery.inputlimiter.1.0.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/inputlimiter/jquery.inputlimiter.1.3.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jasny/js/bootstrap-fileupload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jasny/js/bootstrap-inputmask.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery-2.0.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery-steps-master/build/jquery.steps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery-steps-master/demo/css/jquery.steps.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery-steps-master/demo/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery-steps-master/demo/css/wizardMain.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery-steps-master/lib/jquery.cookie-1.3.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery-validation-1.11.1/dist/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery.dualListbox-1.3/jquery.dualListBox-1.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery.fancybox-1.3.4/fancybox/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_loading.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_nav_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_nav_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_shadow_e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_shadow_n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_shadow_ne.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_shadow_nw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_shadow_s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_shadow_se.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_shadow_sw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_shadow_w.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_title_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_title_main.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_title_over.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancy_title_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancybox-x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancybox-y.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery.fancybox-1.3.4/fancybox/fancybox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery.fancybox-1.3.4/fancybox/jquery.mousewheel-3.0.4.pack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/jquery.fancybox-1.3.4/jquery-1.4.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/magic/magic.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/modernizr-2.6.2-respond-1.1.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/morris/morris-0.4.3.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/morris/morris-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/morris/morris.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/morris/raphael-2.1.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/pagedown/Markdown.Converter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/pagedown/Markdown.Sanitizer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/social-buttons/social-buttons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/switch/static/js/bootstrap-switch.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/switch/static/stylesheets/bootstrap-switch.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/tagsinput/jquery.tagsinput.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/tagsinput/jquery.tagsinput.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/timeline/timeline.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/timepicker/css/bootstrap-timepicker.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/timepicker/js/bootstrap-timepicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/uniform/jquery.uniform.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/uniform/themes/default/css/uniform.default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/uniform/themes/default/images/bg-input-focus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/uniform/themes/default/images/bg-input.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/uniform/themes/default/images/sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/validVal/js/jquery.validVal.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/validationengine/css/validationEngine.jquery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/validationengine/js/jquery.validationEngine.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/validationengine/js/languages/jquery.validationEngine-en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/wysihtml5/dist/bootstrap-wysihtml5-0.0.2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/assets/plugins/wysihtml5/lib/js/wysihtml5-0.3.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,7 +303,8 @@
       <workItem from="1607777504679" duration="1534000" />
       <workItem from="1607791869387" duration="6999000" />
       <workItem from="1609591703188" duration="5449000" />
-      <workItem from="1609610107490" duration="5165000" />
+      <workItem from="1609610107490" duration="5252000" />
+      <workItem from="1609622908225" duration="83000" />
     </task>
     <task id="LOCAL-00001" summary="git test">
       <created>1607778433212</created>
@@ -331,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609595254876</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Template">
+      <created>1609622846180</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609622846180</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,29 +360,31 @@
     <MESSAGE value="admin panel configured" />
     <MESSAGE value="Student Model Added" />
     <MESSAGE value="Image Folder Path Updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Image Folder Path Updated" />
+    <MESSAGE value="Added Template" />
+    <MESSAGE value="Template Updated v1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Template Updated v1.1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="442" y="187" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607777543483">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="442" y="187" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1607777543483" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1609595253909">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1609622967274">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1609595253909" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1609622967274" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1607796003667">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1607796003667" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1607798269961">
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1609622849875">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1607798269961" />
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1609610111346">
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1609622849875" />
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1609623032848">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1609610111346" />
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1609623032848" />
     <state x="492" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607793692441">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
