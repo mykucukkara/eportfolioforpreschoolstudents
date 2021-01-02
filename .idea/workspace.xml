@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8d633d3-a787-40e0-b0d3-8adbbef99442" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/student/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/student/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eportfolioforpreschoolstudent/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/eportfolioforpreschoolstudent/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +41,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Django\eportfolioforpreschoolstudent\.idea" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1lYcWh7Ykzb5MXwDAXRC9u8ylkj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -93,7 +98,8 @@
       <option name="presentableId" value="Default" />
       <updated>1607777498513</updated>
       <workItem from="1607777504679" duration="1534000" />
-      <workItem from="1607791869387" duration="6083000" />
+      <workItem from="1607791869387" duration="6999000" />
+      <workItem from="1609591703188" duration="2761000" />
     </task>
     <task id="LOCAL-00001" summary="git test">
       <created>1607778433212</created>
@@ -116,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607795584324</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Student Model Added">
+      <created>1607798268304</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607798268304</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,29 +139,30 @@
     <MESSAGE value="git test" />
     <MESSAGE value="Added Classroom Models" />
     <MESSAGE value="admin panel configured" />
-    <option name="LAST_COMMIT_MESSAGE" value="admin panel configured" />
+    <MESSAGE value="Student Model Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Student Model Added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="442" y="187" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607777543483">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="442" y="187" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1607777543483" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1607795583512">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1607798267441">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1607795583511" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1607798267441" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1607796003667">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1607796003667" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1607795585792">
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1607798269961">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1607795585792" />
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1607791878496">
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1607798269961" />
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1609591704917">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1607791878496" />
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1609591704917" />
     <state x="492" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607793692441">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
