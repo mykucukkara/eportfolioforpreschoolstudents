@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'home.apps.HomeConfig',
     'student.apps.StudentConfig',
+    'django_better_admin_arrayfield',
 ]
 
 MIDDLEWARE = [
@@ -77,8 +78,12 @@ WSGI_APPLICATION = 'eportfolioforpreschoolstudent.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'djangotest',
+        'USER': 'postgres',
+        'PASSWORD': 'yusuf3423',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 

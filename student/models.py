@@ -1,4 +1,6 @@
 from django.contrib.auth.models import User
+from django.contrib.postgres.fields import ArrayField
+from django.core.validators import int_list_validator
 from django.db import models
 
 
@@ -40,3 +42,20 @@ class Student(models.Model):
 
     def __str__(self):
         return self.name
+
+
+
+class Images(models.Model):
+    STATUS = (
+        ('True', 'Evet'),
+        ('False', 'Hayır'),
+    )
+    student = models.ForeignKey(Student, on_delete=models.CASCADE)
+    title = models.CharField(max_length=50, null=True, blank=True)
+    image = models.ImageField(blank=True, upload_to='images/')
+    detail = models.TextField(max_length=200, null=True)
+    status = models.CharField(max_length=10, choices=STATUS)
+    gostergeler = ArrayField(base_field=models.CharField(blank=True, max_length=5), size=250, default=list)
+
+    def __str__(self):
+        return self.title
