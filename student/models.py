@@ -2,7 +2,7 @@ from django.contrib.auth.models import User
 from django.contrib.postgres.fields import ArrayField
 from django.core.validators import int_list_validator
 from django.db import models
-
+from ckeditor_uploader.fields import RichTextUploadingField
 
 # Create your models here.
 from django.utils.safestring import mark_safe
@@ -41,7 +41,7 @@ class Student(models.Model):
     surname = models.CharField(max_length=30, null=True)
     description = models.CharField(max_length=255)
     image = models.ImageField(blank=True, upload_to='images/', null=True)
-    detail = models.TextField(null=True)
+    detail = RichTextUploadingField(null=True)
     status = models.CharField(max_length=10, choices=STATUS)
     slug = models.SlugField()
     create_at = models.DateTimeField(auto_now_add=True)
