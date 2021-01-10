@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a8d633d3-a787-40e0-b0d3-8adbbef99442" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eportfolioforpreschoolstudent/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/eportfolioforpreschoolstudent/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eportfolioforpreschoolstudent/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/eportfolioforpreschoolstudent/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/student/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/student/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +118,7 @@
       <workItem from="1610056197785" duration="1104000" />
       <workItem from="1610209127977" duration="2568000" />
       <workItem from="1610231438531" duration="122000" />
-      <workItem from="1610283470851" duration="2323000" />
+      <workItem from="1610283470851" duration="5426000" />
     </task>
     <task id="LOCAL-00001" summary="git test">
       <created>1607778433212</created>
@@ -176,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610057282234</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Image System Uploaded v2">
+      <created>1610291105587</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1610291105587</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,17 +198,22 @@
     <MESSAGE value="Added Template" />
     <MESSAGE value="Template Updated v1.1" />
     <MESSAGE value="Image System Uploaded v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Image System Uploaded v1" />
+    <MESSAGE value="Image System Uploaded v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Image System Uploaded v2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="442" y="187" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607777543483">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="442" y="187" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1607777543483" />
-    <state x="1674" y="0" key="CommitChangelistDialog2" timestamp="1610057280665">
-      <screen x="1366" y="0" width="1366" height="768" />
+    <state x="432" y="220" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1610293016653">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1609623051346" />
+    <state x="432" y="220" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1610293016653" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1610291104242">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1610291104242" />
     <state x="1674" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.0.1366.768@1366.0.1366.768" timestamp="1610057280665" />
     <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1609787786529">
       <screen x="0" y="0" width="1366" height="768" />

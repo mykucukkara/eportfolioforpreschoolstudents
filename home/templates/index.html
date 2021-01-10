@@ -1,19 +1,10 @@
 ﻿{%  extends "homebase.html" %}
 
-{% block title %} İndex Sayfası {% endblock %}
-{% block keywords %} Anahtar Kelimeler {% endblock %}
-{% block description %} Açıklamalar {% endblock %}
+{% block title %} {{setting.school}} {% endblock %}
+{% block keywords %} {{setting.keywords}} {% endblock %}
+{% block description %} {{ setting.description }} {% endblock %}
 
 
-
-
-{% block leftsidebar %}
-    {% include "leftsidebar.html" %}
-{% endblock %}
-
-{% block content %}
-    {% include "content.html" %}
-{% endblock %}
-{% block rightsidebar %}
-    {% include "rightsidebar.html" %}
-{% endblock %}
+{% block leftsidebar %}{% include "leftsidebar.html" %}{% endblock %}
+{% block content %}{% include "content.html" %}{% endblock %}
+{% block rightsidebar %}{% include "rightsidebar.html" %}{% endblock %}
