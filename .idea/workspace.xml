@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8d633d3-a787-40e0-b0d3-8adbbef99442" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/myk_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eportfolioforpreschoolstudent/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/eportfolioforpreschoolstudent/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eportfolioforpreschoolstudent/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/eportfolioforpreschoolstudent/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/student/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/student/models.py" afterDir="false" />
     </list>
@@ -116,7 +115,10 @@
       <workItem from="1610045917899" duration="8446000" />
       <workItem from="1610054382660" duration="486000" />
       <workItem from="1610054880465" duration="236000" />
-      <workItem from="1610056197785" duration="912000" />
+      <workItem from="1610056197785" duration="1104000" />
+      <workItem from="1610209127977" duration="2568000" />
+      <workItem from="1610231438531" duration="122000" />
+      <workItem from="1610283470851" duration="2323000" />
     </task>
     <task id="LOCAL-00001" summary="git test">
       <created>1607778433212</created>
@@ -167,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609623052803</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Image System Uploaded v1">
+      <created>1610057282234</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1610057282234</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,17 +190,19 @@
     <MESSAGE value="Image Folder Path Updated" />
     <MESSAGE value="Added Template" />
     <MESSAGE value="Template Updated v1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Template Updated v1.1" />
+    <MESSAGE value="Image System Uploaded v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Image System Uploaded v1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="442" y="187" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607777543483">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="442" y="187" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1607777543483" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1609623051346">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="1674" y="0" key="CommitChangelistDialog2" timestamp="1610057280665">
+      <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1609623051346" />
+    <state x="1674" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.0.1366.768@1366.0.1366.768" timestamp="1610057280665" />
     <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1609787786529">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -220,14 +231,15 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1607796003667" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1609623056006">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1609623056006" />
-    <state x="1745" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1610056197957">
+    <state x="1641" y="105" key="Vcs.Push.Dialog.v2" timestamp="1610057284469">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1609787781922" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1609623056006" />
+    <state x="1641" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.0.1366.768@1366.0.1366.768" timestamp="1610057284469" />
+    <state x="1745" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1610283641194">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1745" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1610283641194" />
     <state x="1745" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768/1366.0.1366.768@1366.0.1366.768" timestamp="1610056197957" />
     <state x="492" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607793692441">
       <screen x="0" y="0" width="1366" height="768" />

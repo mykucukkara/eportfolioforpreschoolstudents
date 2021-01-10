@@ -12,19 +12,20 @@ class StudentImageInline(admin.TabularInline):
 
 
 class ClassroomAdmin(admin.ModelAdmin):
-    list_display = ['title', 'status']
+    list_display = ['title', 'status', 'image_tag']
     list_filter = ['status']
-
-admin.site.register(Classroom, ClassroomAdmin)
+    readonly_fields = ('image_tag',)
 
 class StudentAdmin(admin.ModelAdmin):
-    list_display = ['name', 'surname', 'user', 'status']
+    list_display = ['name', 'surname', 'user','image_tag', 'status']
     list_filter = ['status']
-
-
-admin.site.register(Student, StudentAdmin)
+    readonly_fields = ('image_tag',)
+    #inlines = [StudentImageInline] açılması durumunda admin de her öğrenci altında reismlerini gösterir
 
 class ImagesAdmin(admin.ModelAdmin):
-    list_display = ['title']
+    list_display = ['title', 'image_tag']
+    readonly_fields = ('image_tag',)
 
+admin.site.register(Classroom, ClassroomAdmin)
+admin.site.register(Student, StudentAdmin)
 admin.site.register(Images,ImagesAdmin)
