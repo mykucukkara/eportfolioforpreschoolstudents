@@ -47,13 +47,29 @@
 
                         <h2>İletişim</h2>
 
-
                     </div>
                 </div>
 
                 <hr />
 
-            {{ setting.iletisim | safe }}
+            {{ setting.contact | safe }}
+                <hr/>
+                <div class="form-group">
+                    {% if messages %}
+                        {%  for message in messages %}
+                        <div class="alert-{{ message.tags }}" role="alert">
+                            {{ message }}
+                        </div>
+                        {% endfor %}
+                    {% endif %}
+                                            <label>İletişim Formu</label>
+                                           <form action="" method="post">
+                                               {%  csrf_token %}
+                                               {{ form.as_p }}
+                                               <input type="submit" value="Gönder">
+                                           </form>
+                        </div>
+
 
             </div>
 
