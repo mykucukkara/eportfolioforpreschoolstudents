@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8d633d3-a787-40e0-b0d3-8adbbef99442" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/home/templates/hakkimizda.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/iletisim.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/referanslar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eportfolioforpreschoolstudent/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/eportfolioforpreschoolstudent/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eportfolioforpreschoolstudent/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/eportfolioforpreschoolstudent/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/student/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/leftsidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/leftsidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +69,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/home/templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Django\eportfolioforpreschoolstudent\home\templates" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="eportfolioforpreschoolstudent" type="Python.DjangoServer" factoryName="Django server">
@@ -117,7 +126,9 @@
       <workItem from="1610056197785" duration="1104000" />
       <workItem from="1610209127977" duration="2568000" />
       <workItem from="1610231438531" duration="122000" />
-      <workItem from="1610283470851" duration="7620000" />
+      <workItem from="1610283470851" duration="8344000" />
+      <workItem from="1610544249619" duration="2733000" />
+      <workItem from="1610562074554" duration="2239000" />
     </task>
     <task id="LOCAL-00001" summary="git test">
       <created>1607778433212</created>
@@ -189,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610294815270</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added CkEditor">
+      <created>1610298783954</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1610298783954</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +224,8 @@
     <MESSAGE value="Image System Uploaded v1" />
     <MESSAGE value="Image System Uploaded v2" />
     <MESSAGE value="Create Setting Model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Setting Model" />
+    <MESSAGE value="Added CkEditor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CkEditor" />
   </component>
   <component name="WindowStateProjectService">
     <state x="442" y="187" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607777543483">
@@ -217,10 +236,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="432" y="220" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1610293016653" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1610294814145">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1610298782897">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1610294814145" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1610298782897" />
     <state x="1674" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.0.1366.768@1366.0.1366.768" timestamp="1610057280665" />
     <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1609787786529">
       <screen x="0" y="0" width="1366" height="768" />
@@ -250,15 +269,15 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1607796003667" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1610294826037">
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1610298804959">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1610294826037" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1610298804959" />
     <state x="1641" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.0.1366.768@1366.0.1366.768" timestamp="1610057284469" />
-    <state x="1745" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1610283641194">
+    <state x="1745" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1610562084081">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1745" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1610283641194" />
+    <state x="1745" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1610562084081" />
     <state x="1745" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768/1366.0.1366.768@1366.0.1366.768" timestamp="1610056197957" />
     <state x="492" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607793692441">
       <screen x="0" y="0" width="1366" height="768" />
