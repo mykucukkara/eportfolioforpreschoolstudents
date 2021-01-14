@@ -29,6 +29,8 @@ urlpatterns = [
     path('home/', include('home.urls')),
     path('student/', include('student.urls')),
     path('ckeditor/', include('ckeditor_uploader.urls')),
+    path('students/', views.list_students, name ='list_students')
+    #path('students/<int:id>/<slug:slug>', views.classroom_students, name ='classroom_students')
 ]
 
 if settings.DEBUG:

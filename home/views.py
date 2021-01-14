@@ -1,8 +1,12 @@
+import users as users
 from django.contrib import messages
+from django.contrib.auth.models import User
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
 
+import student
 from home.models import Setting, ContactFormu, ContactFormMessage
+from student.models import Student, Classroom
 
 
 def index(request):
@@ -17,6 +21,8 @@ def hakkimizda(request):
     context = {'setting': setting,
                'page': 'hakkimizda'}
     return render(request, 'hakkimizda.html', context)
+
+
 
 def referanslar(request):
     setting = Setting.objects.get(pk=1)
@@ -45,3 +51,13 @@ def iletisim(request):
                'page': 'iletisim',
                'form': form}
     return render(request, 'iletisim.html', context)
+
+def list_students(request):
+    classroom = Classroom.objects.all()
+    students = Student.objects.filter(user_id=request.user.id)
+    context = {'students' : students,
+               'classroom' : classroom,
+               'request': request}
+    return render(request,'students.html', context)
+
+
