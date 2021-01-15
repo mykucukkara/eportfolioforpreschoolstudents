@@ -1,12 +1,13 @@
 import users as users
 from django.contrib import messages
 from django.contrib.auth.models import User
-from django.http import HttpResponseRedirect
+from django.db.models import Q
+from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import render
 
 import student
 from home.models import Setting, ContactFormu, ContactFormMessage
-from student.models import Student, Classroom
+from student.models import Student, Classroom, Images
 
 
 def index(request):
@@ -59,5 +60,14 @@ def list_students(request):
                'classroom' : classroom,
                'request': request}
     return render(request,'students.html', context)
+
+
+def student_detail(request,id,slug):
+    #students = Student.objects.all()
+    st = Student.objects.get(pk=id)
+    images = Images.objects.filter(student_id=id)
+    context = {'student': st,
+               'images': images}
+    return render(request, 'student_detail.html', context)
 
 

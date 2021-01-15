@@ -65,6 +65,7 @@ class Images(models.Model):
     image = models.ImageField(blank=True, upload_to='images/')
     detail = models.TextField(max_length=200, null=True)
     status = models.CharField(max_length=10, choices=STATUS)
+    slug = models.CharField(max_length=50, null=True)
     gostergeler = ArrayField(base_field=models.CharField(blank=True, max_length=5), size=250, default=list)
 
     def __str__(self):

@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>{% block title %} Öğrencilerim {% endblock %}</title>
+    <title>{% block title %} {{student.name}} 'in Sayfası {% endblock %}</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="{% block keywords %} Anasayfa Anahtar Kelimeler{% endblock %}" name="keywords" />
 	<meta content="{% block description %} Anasayfa Kısa Açıklama{% endblock %}" name="description" />
@@ -45,18 +45,9 @@
                     <div class="col-lg-12">
 
 
-                        <h2>Öğrencim</h2>
-
-
-                    </div>
-                </div>
-
-                <hr />
-                <div class="col-lg-12">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            Öğrencilerim
-                        </div>
+                        <h2>{{student.name}} {{student.surname}}</h2>
+                        <hr />
+                        	<center><img src="{{ student.image.url }}" alt="" height="200" width="200" /></center>
                         <div class="panel-body">
                             <div class="table-responsive">
                                 <table class="table">
@@ -65,27 +56,47 @@
                                             <th>#</th>
                                             <th>Adı</th>
                                             <th>Soyadı</th>
+                                            <th>Baba Adı</th>
                                             <th>Sınıfı</th>
-                                            <th>Profili</th>
+                                            <th>Durumu</th>
+                                            <th>Kayıt Tarihi</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                    {% for st in students %}
                                         <tr>
-                                            <td>{{ st.id }}</td>
-                                            <td>{{st.name}}</td>
-                                            <td>{{ st.surname }}</td>
-                                            <td>{{ st.classroom.title }}</td>
-                                            <td><a href="/mystudent/{{st.id}}/{{st.slug}}/"> Tıklayınız </a></td>
+                                            <td>{{ student.id }}</td>
+                                            <td>{{student.name}}</td>
+                                            <td>{{ student.surname }}</td>
+                                            <td>{{ student.user.first_name }}</td>
+                                            <td>{{ student.classroom.title }}</td>
+                                            {% if student.status == 'True' %}
+                                            <td>Aktif</td>
+                                            {% else %}
+                                            <td>Pasif</td>
+                                            {% endif %}
+                                            <td>{{ student.create_at.ctime }}</td>
                                         </tr>
-                                    {% endfor %}
                                     </tbody>
                                 </table>
+
+                            <div class="panel panel-success">
+                            <div class="panel-heading">
+                               {{student.name}}'nin Materyelleri
+                            </div>
+
+                            <div class="panel-body">
+
+			<p style="text-align:center">
+{% for rs in images %}
+		<a  id="example1" href="/materyel/{{ rs.id }}/{{ rs.slug }}/"  title="{{rs.title}}"><img src="{{rs.image.url}}" alt="" height="200" width="200"/></a>
+{% endfor %}
+	</p>
+		</div>
+		</div>
                             </div>
                         </div>
                     </div>
                 </div>
-
 
 
             </div>

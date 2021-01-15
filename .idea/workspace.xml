@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8d633d3-a787-40e0-b0d3-8adbbef99442" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/home/templates/students.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/student_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eportfolioforpreschoolstudent/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/eportfolioforpreschoolstudent/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/leftsidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/leftsidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/rightsidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/rightsidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/students.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/students.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/student/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +131,8 @@
       <workItem from="1610283470851" duration="8344000" />
       <workItem from="1610544249619" duration="2733000" />
       <workItem from="1610562074554" duration="9090000" />
-      <workItem from="1610651004784" duration="6942000" />
+      <workItem from="1610651004784" duration="9928000" />
+      <workItem from="1610727871705" duration="10281000" />
     </task>
     <task id="LOCAL-00001" summary="git test">
       <created>1607778433212</created>
@@ -219,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610573097929</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="students.html Added">
+      <created>1610663870559</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1610663870559</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +252,8 @@
     <MESSAGE value="Added CkEditor" />
     <MESSAGE value="Added Referances, Contact and About Us Page" />
     <MESSAGE value="Contact Form Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contact Form Added" />
+    <MESSAGE value="students.html Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="students.html Added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="442" y="187" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607777543483">
@@ -250,10 +264,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="432" y="220" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1610293016653" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1610573096625">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1610663869324">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1610573096625" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1610663869324" />
     <state x="1674" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.0.1366.768@1366.0.1366.768" timestamp="1610057280665" />
     <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1609787786529">
       <screen x="0" y="0" width="1366" height="768" />
@@ -283,15 +297,15 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1607796003667" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1610573100855">
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1610670367493">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1610573100855" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1610670367493" />
     <state x="1641" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.0.1366.768@1366.0.1366.768" timestamp="1610057284469" />
-    <state x="1745" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1610651005264">
+    <state x="1745" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1610727902477">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1745" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1610651005264" />
+    <state x="1745" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1610727902477" />
     <state x="1745" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768/1366.0.1366.768@1366.0.1366.768" timestamp="1610056197957" />
     <state x="492" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607793692441">
       <screen x="0" y="0" width="1366" height="768" />
