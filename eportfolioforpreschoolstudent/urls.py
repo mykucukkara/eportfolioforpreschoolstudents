@@ -30,7 +30,10 @@ urlpatterns = [
     path('student/', include('student.urls')),
     path('ckeditor/', include('ckeditor_uploader.urls')),
     path('students/', views.list_students, name ='list_students'),
-    path('mystudent/<int:id>/<slug:slug>/', views.student_detail, name ='student_detail')
+    path('mystudent/<int:id>/<slug:slug>/', views.student_detail, name ='student_detail'),
+    path('materyal/<int:st_id>/<int:m_id>/<slug:slug>/', views.material_detail, name='material_detail'),
+    path('logout/', views.logout_view, name='logout_view'),
+    path('login/', views.login_view, name='login_view'),
 ]
 
 if settings.DEBUG:

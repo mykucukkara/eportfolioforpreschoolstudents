@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'eportfolioforpreschoolstudent.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'djangotest',
+        'NAME': 'djangotest2',
         'USER': 'postgres',
         'PASSWORD': 'yusuf3423',
         'HOST': 'localhost',

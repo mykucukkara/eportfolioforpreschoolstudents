@@ -8,11 +8,11 @@
                 </a>
                 <br />
                 <div class="media-body">
-                    <h5 class="media-heading"> Joe Romlin</h5>
+                    <h5 class="media-heading">{% if user.id is not None %} {{ user.first_name }} {{ user.last_name }} {% else %} Misafir{% endif %}</h5>
                     <ul class="list-unstyled user-info">
 
                         <li>
-                             <a class="btn btn-success btn-xs btn-circle" style="width: 10px;height: 12px;"></a> Online
+                             <a class="btn btn-{% if user.id is not None %}success{% else %}danger{% endif %} btn-xs btn-circle" style="width: 10px;height: 12px;"></a>{% if user.id is not None %} Online{% else %}Offline {% endif %}
 
                         </li>
 
@@ -33,6 +33,9 @@
                 </li>
 
                  <li class="panel">
+                     {% if user.id is not Not %}
+
+
                      <a href="/students" data-parent="#menu" data-toggle="collapse" class="accordion-toggle" data-target="#blank-nav">
                         <i class="icon-check-empty"></i> Öğrencilerim
                     </a>
@@ -45,8 +48,11 @@
                     <a href="/iletisim" data-parent="#menu" data-toggle="collapse" class="accordion-toggle" data-target="#blank-nav">
                         <i class="icon-check-empty"></i> İletişim
                     </a>
+                     <a href="/logout/"><i class="icon-signout"></i> Logout</a>
+                         {% else %}
+                         <a href="/login/"><i class="icon-signin"></i> Login</a>
+                     {% endif %}
                 </li>
-                <li><a href="login.html"><i class="icon-signin"></i> Login Page </a></li>
 
             </ul>
 
